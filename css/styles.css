@@ -74,6 +74,10 @@ p.lead {
   font-weight: 400;
 }
 
+.text-primary {
+  color: #f95959 !important;
+}
+
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
@@ -84,7 +88,7 @@ p.lead {
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: #212529;
+  background: radial-gradient(circle at 10% 20%, rgb(90, 92, 106) 0%, rgb(32, 45, 58) 81.3%);
 }
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
@@ -205,6 +209,29 @@ section.resume-section {
 }
 section.resume-section .resume-section-content {
   width: 100%;
+}
+
+section.resume-section .resume-section-content h3 > a {
+  color: #343A41;
+  text-decoration: none;
+}
+
+section.resume-section .resume-section-content h3 > a:hover {
+  color: #f95959;
+}
+
+#about h1 {
+  font-size: 4rem;
+}
+
+#about .subheading a {
+  color: #343A41;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+#about .subheading a:hover {
+  color: #f95959;
 }
 
 #publications p {
