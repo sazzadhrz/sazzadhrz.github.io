@@ -69,6 +69,10 @@ h1, .h1 {
   line-height: 1;
 }
 
+p {
+  text-align: justify;
+}
+
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
@@ -151,7 +155,7 @@ p.lead {
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
-  margin-right: 1.5rem;
+  margin: 0 1.5rem 1.5rem 0;
 }
 
 .social-icons .social-icon svg {
@@ -236,7 +240,6 @@ section.resume-section .resume-section-content h3 > a:hover {
 
 #publications p {
   font-size: 14px;
-  text-align: justify;
 }
 
 @media (min-width: 768px) {
