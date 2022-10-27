@@ -48,7 +48,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 .bg-text {
   font-family: "Poppins", sans-serif;
-  position: absolute;
+  font-size: 3em;
+  position: relative;
   margin-bottom: -0.8em;
   top: -80px;
   left: 10px;
@@ -104,13 +105,14 @@ p.lead {
 }
 
 #sideNav {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   padding-left: 1rem;
   padding-right: 1rem;
   background: radial-gradient(circle at 10% 20%, rgb(90, 92, 106) 0%, rgb(32, 45, 58) 81.3%);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
@@ -233,7 +235,7 @@ section.resume-section .resume-section-content h3 > a:hover {
     display: flex;
     flex-direction: column;
     width: 17rem;
-    height: 100vh;
+    height: 100%;
   }
 
   #sideNav .navbar-brand {
@@ -274,16 +276,15 @@ section.resume-section .resume-section-content h3 > a:hover {
     padding-left: 17rem;
   }
 
-  .bg-text {
-    font-size: 6em;
-    position: relative;
-  }
-
   section.resume-section {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .bg-text {
+    font-size: 6em;
   }
   
 }
